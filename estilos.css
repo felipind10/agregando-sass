@@ -6,6 +6,19 @@
           box-sizing: border-box;
 }
 
+/* bucle*/
+.div--red {
+  color: red;
+  font-size: 50px;
+  text-align: center;
+}
+
+.div--red2 {
+  color: red;
+  font-size: 15px;
+  text-align: center;
+}
+
 body {
   font-family: 'Oswald', sans-serif;
   color: #fff;
@@ -68,30 +81,30 @@ body {
 }
 
 #imagen {
+  height: 300px;
+  width: 100%;
   background-image: url("imagenes/1.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 300px;
 }
 
 #imagen2 {
+  height: 300px;
+  width: 100%;
   background-image: url("imagenes/palitos.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 300px;
 }
 
 #imagen3 {
+  height: 300px;
+  width: 100%;
   background-image: url("imagenes/niguiris.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 300px;
 }
 
 #diseño {
@@ -133,20 +146,6 @@ body {
   border-bottom: 3px solid #000;
 }
 
-.div_titulo {
-  padding: 10px 10px;
-  font-size: 30px;
-  text-align: center;
-  text-transform: uppercase;
-  text-shadow: 0 0 5px #000;
-}
-
-.div__p {
-  font-size: 15px;
-  text-align: center;
-  text-shadow: 0 0 5px #000;
-}
-
 .div__enlace3 {
   margin-left: 40%;
   text-align: center;
@@ -157,7 +156,7 @@ body {
   text-shadow: 0 0 5px #000;
 }
 
-.div__enlace3:hover {
+.div__enlace3:hover, .contenedor__items--enlace4:hover, .article__2--enlace5:hover {
   text-decoration: none;
   color: #fff;
   background-color: #F40A0A;
@@ -180,13 +179,6 @@ body {
   color: #fff;
   text-transform: uppercase;
   text-shadow: 0 0 5px #000;
-}
-
-.contenedor__items--enlace4:hover {
-  text-decoration: none;
-  color: #fff;
-  background-color: #F40A0A;
-  border-radius: 20px;
 }
 
 .article__2 {
@@ -224,13 +216,6 @@ body {
   color: #fff;
   text-transform: uppercase;
   text-shadow: 0 0 5px #000;
-}
-
-.article__2--enlace5:hover {
-  text-decoration: none;
-  color: #fff;
-  background-color: #F40A0A;
-  border-radius: 20px;
 }
 
 #footer {
